@@ -1,12 +1,14 @@
 overwrite: true
 schema: "https://swapi-graphql.netlify.com/.netlify/functions/index"
-documents: "src/**/*.graphql"
+documents: "src/**/*.ts"
 generates:
   src/generated/graphql.tsx:
     plugins:
       - "typescript"
       - "typescript-operations"
       - "typescript-react-apollo"
+    config:
+      withHooks: true
   ./graphql.schema.json:
     plugins:
       - "introspection"

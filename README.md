@@ -1,3 +1,17 @@
+## Quickstart
+
+```
+yarn
+yarn run gen
+yarn start
+```
+
+## Tutorials
+
+- https://blog.logrocket.com/build-a-graphql-react-app-with-typescript/
+
+## Boilerplate
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
